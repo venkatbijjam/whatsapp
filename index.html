@@ -10,332 +10,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="style/index.css" />
-
-     <style>
-  .modal-header, h4, .close {
-      background-color: #5cb85c;
-      color:white !important;
-      text-align: center;
-      font-size: 30px;
-  }
-  .modal-footer {
-      background-color: #f9f9f9;
-  }
-  .card-header
-{
-  padding: 3rem 2.25rem;
-}
-.sidebackgroud{
-background-color: lightgray;
-	}
-
-
-.sideBar {
-  height: calc(100% - 128px);
   
-  padding: 0.3rem !important;
-  margin: 0 !important;
-  background-color: #fff;
-  overflow-y: scroll;
-  border: 1px solid #f7f7f7;
-  width: 100%;
+ <link rel="stylesheet" type="text/css"  href="styles/index.css" />
 
-    height: 83vh;
-     
-    
-
-}
-
-.sideBar-body {
-  margin: 0 !important;
-  padding-top: 1vh;
-  height: 4rem;
-  border-bottom: 0.6px solid #dcdedf;
-  cursor: pointer;
-  width: 100%;
-}
-
-.sideBar-body:hover {
-  background-color: #f2f2f2;
-}
-
-.sideBar-avatar {
-  text-align: center;
-  padding: 0 !important;
-}
-
-.sideNav-images{
-  height: 50px;
-  width: 50px;
-}
-
-.scroll{
-    overflow-y: scroll !important;
-}
-.sigma{
-    height: 83vh;
-     
-    
-}
-
-
-
-	/* width */
-::-webkit-scrollbar {
-    width: 5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #888; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-}
-
-.chat-window-link{
-  width: 100%;
-  }
-
-.heading {
-  height: 4rem;
-  width: 100%;  
-  padding: 0.3rem;
-  margin: 0;
-  background-color: #047166;
-  }
-
-
-	 .alert {
-    height: 3rem;
-    background-color: #f2f2f2;
-    margin: 0;
-  }
-
-  .side-chat-list {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-}
-.message-time {
-  font-size: 12px;
-  text-align: right;
-  color: #9a9a9a;
-}
-
-
-
-.message {
-  padding: 0 !important;
-  margin: 0 !important;
-  height: 81vh;
-  background-color: lightgray;
-  background-size: cover;
-  overflow-y: auto;
-  border: 1px solid #f7f7f7;
-
-  
-}
-.message-body {
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 100%;
-}
-
-.message-main-receiver {
-  max-width: 50%;
-  height: auto;
-  margin-top: 10px;
-}
-
-.message-main-sender {
-  padding: 3px 20px !important;
-  margin-left: 40% !important;
-  max-width: 60%;
-}
-
-.message-text {
-  font-weight: 200;
-  font-size: 14px;
-}
-
-.message-time {
-  font-size: 12px;
-  text-align: right;
-  color: #9a9a9a;
-}
-
-.receiver {
-  height: auto;
-  width: auto !important;
-  padding: 4px 10px 7px !important;
-  border-radius: 10px 10px 10px 0;
- background: #ffffff;
-
-}
-
-.sender {
-  height: auto;
-  float: right;
-  width: auto !important;
-  background: #dcf8c6;
-  border-radius: 10px 10px 0 10px;
-  padding: 4px 10px 7px  20px !important;
-  font-size: 12px;
-  text-align: left;
-}
-
-.sender img{
-	float: right;
-}
-/*Reply*/
-
-.reply {
-  height: auto;
-  width: auto;
-  background-color: #f5f1ee;
-  margin: 0 !important;
-}
-
-.reply-smiley {
-  padding-top: 10px;
-}
-
-.reply-smiley i {
-  color: darkslategray;
-  cursor: pointer;
-}
-/* 
-.popover{
-  max-height: 50%;
-  margin-left: 120px !important;
-} */
-
-.reply-send {
-  padding: 10px !important;
-}
-
-.reply-send i {
-  text-align: center;
-  cursor: pointer;
-}
-
-.reply-text-box {
-  padding: 10px !important;
-}
-
-.main-chat-window {
-  padding: 0 !important;
-  margin: 0 !important;
-  height: 100%;
-  border-left: 1px solid rgba(0, 0, 0, .08);
-}
- .heading-name-meta{
-    color: white !important; 
-  }
-.card-text{
-    color: white !important; 
-
-}
-
-
-@media screen and (max-width: 768px) {
-  
-  body {
-    font-size: 14px;
-  }
-  .app {
-    top: 0;
-    height: 100%;
-  }
-  .heading {
-    height: 3rem;
-    background-color: #047166;
-  }
-
-  .heading-name-meta{
-    color: white !important; 
-  }
-
-  .heading-name-meta>p>small{
-    color: white !important; 
-
-  }
-
-.material-icons.md-36 { font-size: 24px; }
-.material-icons.md-dark { color: rgba(255, 255, 255, 1); }
-.message-read{
-  color: rgba(0, 0, 0, 0.54) !important;
-}
-.chat-window-link{
-  width: 100%;
-  }
-  
-  .heading-newMessage i {
-    cursor: pointer;
-  }
-
-  .heading-menu i {
-    cursor: pointer;
-  }
-  .sideBar {
-    height: calc(100% - 7rem);
-  }
-  .sideBar-body {
-    height: 3rem;
-  }
-
-  .sideNav-images{
-    height: 40px;
-    width: 40px;
-  }
-
-  /*main-chat-window*/
-  .main-chat-window {
-    padding: 0 !important;
-    margin: 0 !important;
-    height: 100%;
-    border-left: 1px solid rgba(0, 0, 0, .08);
-  }
-  .message {
-    height: calc(100% - 6rem);
-  }
-  .reply {
-    height: auto;
-    background: #047166;
-  }
-  .reply-smiley {
-    padding: 5px !important;
-  }
-  .reply-smiley i {
-    padding: 5px !important;
-  }
-
-  .mic-dark{
-    color: rgba(0, 0, 0, 0.54) !important;
-    padding: 5px;
-  }
-  .reply-text-box {
-    padding: 5px !important;
-  }
-  
-  .reply-send {
-    padding: 5px !important;
-  }
-  .reply-send i {
-    padding: 5px !important;
-  }
-}
-
-  </style>
+   
 
 </head>
 
@@ -343,15 +21,15 @@ background-color: lightgray;
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-4 side-chat-list">
+			<div class="col-sm-4 side">
 				<div class="row heading">
 					<div class="col-auto">
-						 <img src="images/profile.svg" class="rounded-circle images" data-toggle="modal" 
+						 <img src="images/profile.svg" class="rounded-circle image" data-toggle="modal" 
 						 data-target="#ProfileModel">
 					</div>
 
 					 <div class="col">
-                       <img src="images/Status.png" class="rounded-circle images md-dark md-36 float-right px" >
+                       <img src="images/status.png" class="rounded-circle images md-dark md-36 float-right px" >
 						
                     </div>
                     <div class="col">
@@ -362,7 +40,7 @@ background-color: lightgray;
                             more_vert</i>
                      </div>
 				</div>
-                    <div class="row alert">
+                    <div class="row sync">
                     <div class="col-auto heading-profile">
                         <img src="images/cellphone.png" class="rounded-circle images">
 
@@ -373,11 +51,11 @@ background-color: lightgray;
                 </div>
     				
          	
-       <div class="row sideBar">
+       <div class="row chat">
 
-   <div class="d-none d-sm-flex row sideBar-body">
-                        <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+   <div class="d-none d-sm-flex row chat-body">
+                        <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -395,9 +73,9 @@ background-color: lightgray;
                     </div>
 
 
-<div class="d-none d-sm-flex row sideBar-body">
-                        <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+<div class="d-none d-sm-flex row chat-body">
+                        <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -414,9 +92,9 @@ background-color: lightgray;
                         </div>
                     </div>
 
-   <div class="d-none d-sm-flex row sideBar-body">
-                        <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+   <div class="d-none d-sm-flex row chat-body">
+                        <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -433,9 +111,9 @@ background-color: lightgray;
                         </div>
                     </div>
 
- <div class="d-none d-sm-flex row sideBar-body">
-                        <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+ <div class="d-none d-sm-flex row chat-body">
+                        <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -452,9 +130,9 @@ background-color: lightgray;
 
                         </div>
                     </div>
- <div class="d-none d-sm-flex row sideBar-body">
-                        <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+ <div class="d-none d-sm-flex row chat-body">
+                        <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -471,9 +149,9 @@ background-color: lightgray;
 
                         </div>
                     </div>
- <div class="d-none d-sm-flex row sideBar-body">
-                        <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+ <div class="d-none d-sm-flex row chat-body">
+                        <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -490,9 +168,9 @@ background-color: lightgray;
 
                         </div>
                     </div>
- <div class="d-none d-sm-flex row sideBar-body">
-                        <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+ <div class="d-none d-sm-flex row chat-body">
+                        <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -511,9 +189,9 @@ background-color: lightgray;
                     </div>
 
 
- <div class="d-none d-sm-flex row sideBar-body">
-                        <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+ <div class="d-none d-sm-flex row chat-body">
+                        <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -528,9 +206,9 @@ background-color: lightgray;
                             </small> 
 
                         </div>
-                    </div> <div class="d-none d-sm-flex row sideBar-body">
-                        <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+                    </div> <div class="d-none d-sm-flex row chat-body">
+                        <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -549,9 +227,9 @@ background-color: lightgray;
 
 
 
- <div class="d-none d-sm-flex row sideBar-body">
-                        <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+ <div class="d-none d-sm-flex row chat-body">
+                        <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -570,11 +248,11 @@ background-color: lightgray;
                     </div>
 
 
-<a href="mobile_chat.html" class="d-flex d-sm-none chat-window-link" style="width: 100%">
-                        <div class="row sideBar-body">
+<a href="mobile_chat.html" class="d-flex d-sm-none mobile-chat" style="width: 100%">
+                        <div class="row chat-body">
 
-                             <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+                             <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -594,11 +272,11 @@ background-color: lightgray;
                     </a>    
              
 
-<a href="mobile_chat.html" class="d-flex d-sm-none chat-window-link" style="width: 100%">
-                        <div class="row sideBar-body">
+<a href="mobile_chat.html" class="d-flex d-sm-none mobile-chat" style="width: 100%">
+                        <div class="row chat-body">
 
-                            <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+                            <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -616,11 +294,11 @@ background-color: lightgray;
 
                         </div>
                     </a>  
-<a href="mobile_chat.html" class="d-flex d-sm-none chat-window-link" style="width: 100%">
-                        <div class="row sideBar-body">
+<a href="mobile_chat.html" class="d-flex d-sm-none mobile-chat" style="width: 100%">
+                        <div class="row chat-body">
 
-                            <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+                            <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -638,11 +316,11 @@ background-color: lightgray;
 
                         </div>
                     </a>  
-<a href="mobile_chat.html" class="d-flex d-sm-none chat-window-link" style="width: 100%">
-                        <div class="row sideBar-body">
+<a href="mobile_chat.html" class="d-flex d-sm-none mobile-chat" style="width: 100%">
+                        <div class="row chat-body">
 
-                           <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+                           <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -661,11 +339,11 @@ background-color: lightgray;
 
                         </div>
                     </a>  
-<a href="mobile_chat.html" class="d-flex d-sm-none chat-window-link" style="width: 100%">
-                        <div class="row sideBar-body">
+<a href="mobile_chat.html" class="d-flex d-sm-none mobile-chat" style="width: 100%">
+                        <div class="row chat-body">
 
-                           <div class="col-auto sideBar-avatar">
-                            <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+                           <div class="col-auto chat-avatar">
+                            <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                         </div>
 
@@ -684,35 +362,12 @@ background-color: lightgray;
 
                         </div>
                     </a>  
-<a href="mobile_chat.html" class="d-flex d-sm-none chat-window-link" style="width: 100%">
-                        <div class="row sideBar-body">
+<a href="mobile_chat.html" class="d-flex d-sm-none mobile-chat" style="width: 100%">
+                        <div class="row chat-body">
 
-                            <div class="col-auto sideBar-avatar">
+                            <div class="col-auto chat-avatar">
 
-                                <img src="images/user-1.svg" class="rounded-circle sideNav-images">
-
-                            </div>
-
-                            <div class="col-auto">
-                                <span>Venkat</span>
-                                <p class="card-text">
-                                    <small class="text-muted">Hey! I'm fine.</small>
-                                </p>
-                            </div>
-                            <div class="col float-right">
-                                <small class="text-muted float-right text-secondary">10:46
-                                </small>
-
-                            </div>
-
-                        </div>
-                    </a>  
-<a href="mobile_chat.html" class="d-flex d-sm-none chat-window-link" style="width: 100%">
-                        <div class="row sideBar-body">
-
-                            <div class="col-auto sideBar-avatar">
-
-                                <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+                                <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                             </div>
 
@@ -730,12 +385,35 @@ background-color: lightgray;
 
                         </div>
                     </a>  
-<a href="mobile_chat.html" class="d-flex d-sm-none chat-window-link" style="width: 100%">
-                        <div class="row sideBar-body">
+<a href="mobile_chat.html" class="d-flex d-sm-none mobile-chat" style="width: 100%">
+                        <div class="row chat-body">
 
-                            <div class="col-auto sideBar-avatar">
+                            <div class="col-auto chat-avatar">
 
-                                <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+                                <img src="images/user-1.svg" class="rounded-circle contact-images">
+
+                            </div>
+
+                            <div class="col-auto">
+                                <span>Venkat</span>
+                                <p class="card-text">
+                                    <small class="text-muted">Hey! I'm fine.</small>
+                                </p>
+                            </div>
+                            <div class="col float-right">
+                                <small class="text-muted float-right text-secondary">10:46
+                                </small>
+
+                            </div>
+
+                        </div>
+                    </a>  
+<a href="mobile_chat.html" class="d-flex d-sm-none mobile-chat" style="width: 100%">
+                        <div class="row chat-body">
+
+                            <div class="col-auto chat-avatar">
+
+                                <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                             </div>
 
@@ -797,7 +475,7 @@ background-color: lightgray;
                 <!-- Heading -->
                 <div class="row heading">
                     <div class="col-auto heading-profile">
-                        <img src="images/user-1.svg" class="rounded-circle sideNav-images">
+                        <img src="images/user-1.svg" class="rounded-circle contact-images">
 
                     </div>
                     <div class="col heading-name">
@@ -818,7 +496,7 @@ background-color: lightgray;
                         <div class="col-sm-12 message-main-receiver">
 
                             <div class="row receiver">
-                            	<img src="images/user-1.svg" class="rounded-circle sideNav-images">
+                            	<img src="images/user-1.svg" class="rounded-circle contact-images">
                                 <div class="col message-text">
 
                                     Hi, how are you?
@@ -837,13 +515,13 @@ background-color: lightgray;
                             <div class="sender">
                             	<div class="message-text">
                                     Hey! I'm fine. What about you?
-                                    <img src="images/profile.svg" class="rounded-circle sideNav-images">
+                                    <img src="images/profile.svg" class="rounded-circle contact-images">
                                 
                                 </div>
 
                                 <small class="text-muted"><img src="images/seenother.png" class="rounded-circle"> How are You ?</small>
 
-                                <span class="message-time float-right">
+                                <span class="time float-right">
                                     10:46
                                                                   
                                 </span>
@@ -855,7 +533,7 @@ background-color: lightgray;
                         <div class="col-sm-12 message-main-receiver">
 
                             <div class="row receiver">
-                            	<img src="images/user-1.svg" class="rounded-circle sideNav-images">
+                            	<img src="images/user-1.svg" class="rounded-circle contact-images">
                                 <div class="col message-text">
 
                                     Hi, how are you?
@@ -874,13 +552,13 @@ background-color: lightgray;
                             <div class="sender">
                             	<div class="message-text">
                                     Hey! I'm fine. What about you?
-                                    <img src="images/profile.svg" class="rounded-circle sideNav-images">
+                                    <img src="images/profile.svg" class="rounded-circle contact-images">
                                 
                                 </div>
 
                                 <small class="text-muted"><img src="images/seen.png" class="rounded-circle"> How are You ?</small>
 
-                                <span class="message-time float-right">
+                                <span class="time float-right">
                                     10:46
                                                                   
                                 </span>
@@ -898,7 +576,7 @@ background-color: lightgray;
                         <div class="col-sm-12 message-main-receiver">
 
                             <div class="row receiver">
-                            	<img src="images/user-1.svg" class="rounded-circle sideNav-images">
+                            	<img src="images/user-1.svg" class="rounded-circle contact-images">
                                 <div class="col message-text">
 
                                     Hi, how are you?
@@ -917,13 +595,13 @@ background-color: lightgray;
                             <div class="sender">
                             	<div class="message-text">
                                     Hey! I'm fine. What about you?
-                                    <img src="images/profile.svg" class="rounded-circle sideNav-images">
+                                    <img src="images/profile.svg" class="rounded-circle contact-images">
                                 
                                 </div>
 
                                 <small class="text-muted"><img src="images/sent.png" class="rounded-circle"> How are You ?</small>
 
-                                <span class="message-time float-right">
+                                <span class="time float-right">
                                     10:46
                                                                   
                                 </span>
@@ -941,13 +619,13 @@ background-color: lightgray;
                             <div class="sender">
                             	<div class="message-text">
                                     Hey! I'm fine. What about you?
-                                    <img src="images/profile.svg" class="rounded-circle sideNav-images">
+                                    <img src="images/profile.svg" class="rounded-circle contact-images">
                                 
                                 </div>
 
                                 <small class="text-muted"><img src="images/sent.png" class="rounded-circle"> How are You ?</small>
 
-                                <span class="message-time float-right">
+                                <span class="time float-right">
                                     10:46
                                                                   
                                 </span>
@@ -962,13 +640,13 @@ background-color: lightgray;
                             <div class="sender">
                             	<div class="message-text">
                                     Hey! I'm fine. What about you?
-                                    <img src="images/profile.svg" class="rounded-circle sideNav-images">
+                                    <img src="images/profile.svg" class="rounded-circle contact-images">
                                 
                                 </div>
 
                                 <small class="text-muted"><img src="images/sent.png" class="rounded-circle"> How are You ?</small>
 
-                                <span class="message-time float-right">
+                                <span class="time float-right">
                                     10:46
                                                                   
                                 </span>
@@ -1082,16 +760,13 @@ background-color: lightgray;
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
     <script>
+    	//model toggle using jquery
         $(function () {
             $('[data-toggle="popover"]').popover()
             container: 'body'
         })
 
-        $(".alert-link").on("click", function () {
-            $(".alert").removeClass("in").show();
-            $(".alert").delay(200).addClass("in").fadeOut(10000);
-        });
-    </script>
+     </script>
 
 </body>
 </html>
